@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100px;
+  background-color: white;
+}
+
+.upper-header {
+  display: flex;
+  height: 40px;
+  background-color: aqua;
+  width: 100%;
+}
+.location {
+  width: 50%;
+  background-color: white;
+  display: flex;
+}
+.loc-infor {
+  margin-left: 65%;
+}
+.text-loc {
+  display: inline;
+}
+
+.phone {
+  width: 50%;
+  background-color: white;
+}
+
+.down-header {
+  width: 100%;
+}
+.logo {
+  margin-left: 10%;
+}
+.menu-item {
+  margin-left: 20%;
+  margin-right: 5%;
+  text-align: center;
+  font-size: 14px;
+}
