@@ -15,14 +15,17 @@
   background-color: aqua;
   width: 100%;
 }
+
 .location {
   width: 50%;
   background-color: white;
   display: flex;
 }
+
 .loc-infor {
   margin-left: 65%;
 }
+
 .text-loc {
   display: inline;
 }
@@ -33,14 +36,34 @@
 }
 
 .down-header {
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
 }
+
+.logo-container {
+  flex: 1;
+}
+
 .logo {
-  margin-left: 10%;
+  width: 200px;
+  height: auto;
 }
+
+.menu {
+  display: flex;
+  flex: 3;
+  justify-content: space-around;
+}
+
 .menu-item {
-  margin-left: 20%;
-  margin-right: 5%;
+  text-decoration: none;
+  color: black;
   text-align: center;
   font-size: 14px;
+}
+
+.menu-item:hover {
+  color: #ff6600;
 }

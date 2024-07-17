@@ -1,6 +1,6 @@
 import React from "react";
 import "./Carousel.css";
-
+import "../../assets/images/tch3.webp";
 import { Carousel } from "antd";
 const contentStyle = {
   margin: 0,
@@ -8,7 +8,6 @@ const contentStyle = {
   color: "#fff",
   lineHeight: "160px",
   textAlign: "center",
-  background: "#364d79",
 };
 const CarouselComponent = () => {
   const onChange = (currentSlide) => {
@@ -18,23 +17,28 @@ const CarouselComponent = () => {
     <Carousel afterChange={onChange}>
       <div>
         <h3 style={contentStyle}>
-          <img
-            src="https://file.hstatic.net/1000075078/file/web_moi_-_desktop_f4b62288022f448b868d656d2c2ebfa7.jpg"
-            alt=""
-          />
+          <img src="../../src/assets/images/tch1.webp" alt="" />
         </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>2</h3>
+        <h3 style={contentStyle}>
+          <img src="../../src/assets/images/tch2.webp" alt="" />
+        </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>3</h3>
+        <h3 style={contentStyle}>
+          <img src="../../src/assets/images/tch3.webp" alt="" />
+        </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>4</h3>
+        <h3 style={contentStyle}>
+          <img src="../../src/assets/images/tch4.webp" alt="" />
+        </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>5</h3>
+        <h3 style={contentStyle}>
+          <img src="../../src/assets/images/tch5.webp" alt="" />
+        </h3>
       </div>
     </Carousel>
   );
